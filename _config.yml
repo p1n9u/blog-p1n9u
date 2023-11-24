@@ -17,22 +17,21 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  kr
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 p1n9u
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  p1n9u's Daily
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Noot! Noot!
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Devs, Foods, Games]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,8 +41,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Dowon Kim
+  email:               cybrphntm4@hanyang.ac.kr
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -55,21 +54,19 @@ menu:
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2023 p1n9u. All rights reserved.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -90,13 +87,13 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/sidebar-bg.png
+accent_color:          rgb(125,125,125)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(0,0,0)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -119,10 +116,10 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      accent_color:    rgb(125,125,125)
+      theme_color:     rgb(0,0,0)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(0,0,0)
         overlay:       false
 
   # Don't include documents in assets in the sitemap
@@ -270,10 +267,10 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            false
+    always:            true
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
@@ -406,24 +403,21 @@ jekyll_compose:
     drafts:
       layout: post
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        p1n9u's drafts
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     posts:
       layout: post
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        p1n9u's post
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     projects:
       layout: project
       description: > 
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+        p1n9u's projects
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
       links:
         - title: Project Link
-          url: https://example.com
+          url: https://p1n9u.com
