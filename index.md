@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: welcome
 title: p1n9u's Daily
+cover: true
 sitemap: false
 ---
 

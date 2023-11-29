@@ -1,6 +1,8 @@
 ---
 layout: post
 title: My new draft
+# categories: [blog, games]
+# tags: [blog, games]
 # accent_image: 
 #   background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #   overlay: false
