@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thank You!
+title: p1n9u's Daily
 sitemap: false
 ---
 
