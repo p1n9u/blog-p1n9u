@@ -2,17 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Dowon Kim
+  email:             cybrphntm4@hanyang.ac.kr
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    p1n9u: Researcher, System SW Developer & Engineer
 
   # This photo will be used in the about section
   picture:
@@ -26,20 +22,21 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    # twitter:         <username>
+    github:          p1n9u
+    youtube:         '@p1n9u'
+    instagram:       p1n9u_love_sushi
+    linkedin:        p1n9u
+    email:           cybrphntm4@hanyang.ac.kr
+    rss:             https://p1n9u.com/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -57,7 +54,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

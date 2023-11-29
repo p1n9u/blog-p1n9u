@@ -36,7 +36,7 @@ keywords:              [Devs, Foods, Games]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.gif
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -329,6 +329,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
+  - jekyll-avatar
   - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
