@@ -36,7 +36,6 @@ group :jekyll_plugins do
   gem "jekyll-avatar"
   gem "jekyll-paginate"
   gem "jekyll-default-layout"
-  gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
