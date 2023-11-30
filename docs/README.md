@@ -7,6 +7,13 @@ sitemap: false
 permalink: /docs/
 ---
 
+p1n9u's Daily Status:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d5d84e60-b849-4320-a405-709e097b3efb/deploy-status)](https://app.netlify.com/sites/p1n9u/deploys)
+
+
+
+# Theme: Hydejack
+
 Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
 Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
