@@ -1,0 +1,4 @@
+User-agent: *
+Allow:/
+
+Sitemap: https://p1n9u.com/sitemap.xml
