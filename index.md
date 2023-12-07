@@ -15,8 +15,8 @@ sitemap: false
     - resume
     - google 연동
         - search: on going
-        - analytics: soon
-        - ad: soon
+        - analytics: on going
+        - ad: on going
     - naver 연동
         - search: on going
     - index page: on going
