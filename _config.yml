@@ -135,7 +135,7 @@ defaults:
   - scope:
       path:            assets/
     values:
-      sitemap:         false
+      sitemap:         true
 
   # Don't include licenses in sitemap (feel free to delete)
   - scope:
