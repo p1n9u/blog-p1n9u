@@ -59,6 +59,11 @@ menu:
   - title:             Open Guest Book
     url:               /open_guest_book/
 
+
+favicon: /assets/icons/favicon.ico
+apple_touch_icon: /assets/img/logo.png
+
+
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
